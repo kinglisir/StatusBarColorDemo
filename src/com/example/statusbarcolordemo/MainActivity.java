@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 		activityConfig();
 	}
 
-	protected void activityConfig() {
+	protected void activityConfig() {  
 		// 设置手机屏幕为竖屏
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		// 设置状态栏透明（只有在4.4系统才有效果）
